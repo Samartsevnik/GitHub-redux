@@ -1,0 +1,16 @@
+/* purgecss start ignore */
+@tailwind  base;
+@tailwind  components;
+/* purgecss end ignore */
+
+@tailwind utilities;
+@import "markdown";
+
+.adaptive{
+  display: block;
+}
+@media (max-width: 570px) {
+  .adaptive{
+    display: none;
+  }
+}
